@@ -3,7 +3,6 @@ const fs = require('fs');
 const proxy_str = 'https://api.best-proxies.ru/proxylist.json?key=28543a225364b1e077685ba124aee19c&speed=1&type=https&google=1&level=1&country=de&limit=0';
 const proxyApi = require("./proxyApi");
 const yobitApi = require("./yobitApi");
-const yobitApi = require("./yobitApi");
 // function get_pairs(way,callback){
 //     request('https://yobit.net/api/3/info', function (error, response, body){
 //         let pairs = JSON.parse(body).pairs;
